@@ -1,0 +1,132 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%; /*Se ajusta ancho de acuerdo a la pantalla que manejo  */
+    height: 73px; /*La altura deje la misma, pienso que se ve visualmente adecuado*/
+}
+header h1{
+    margin: 0%;
+    font-weight: 500;
+    font-size: 50px
+}
+.main-img{
+    margin: 0%;
+    background-image: url("../img/bg-header.jpg");
+    width: 100%; /*Se ajusta ancho de acuerdo a la pantalla que manejo  */
+    height: 727px;  /*La altura deje la misma, pienso que se ve visualmente adecuado*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    height: 348px;
+    background-color: black;
+    margin-top: 0%;
+    padding: 0%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    align-items: center;
+}
+.presentation1{
+    margin: 0%;
+    padding-left: 150px;
+    width: 475px;
+    height: 197px;
+}
+.presentation1 p{
+    margin-top: 0px;
+}
+.presentation2{
+    margin: 0%;
+    width: 397px;
+    height: 237px;
+    /* background-image: url("../img/bg-header.jpg"); intente colocarla de background pero pierdo control sobre las dimensiones */
+    /* background-position: center;                   de la imagen, por lo que le hice el ingreso por img de html     */                 
+    /* background-size: 397px 237px; */ 
+    /* background-repeat: no-repeat; */
+    padding-right: 150px;
+}
+.presentation2 img{
+    width: 397px;
+    height: 237px;
+}
+.section1{
+    background-color: #1E1A13;
+    width: 100%;
+    height: 370px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.element1{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    margin: 0%;
+}
+.element1 h1{
+    font-weight: 500;
+    margin: 0%;
+    font-size: 40px;
+}
+.element2{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon{
+    width: 220px;
+    text-align: center;
+}
+.info{
+    width: 220px;
+    text-align: center;
+}
+
+.info p{
+    font-size: 25px;
+    font-weight: 300;
+}
+.element3{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section2{
+    background-color: black;
+    width: 100%;
+    height: 348px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 8px;
+}
+.imgg{
+    width: 316px;
+    height: 202px;
+}
+footer{
+    background-color: #1E1A13;
+    color: white;
+    width: 100%;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-size: 20px;
+    font-weight:300;
+}
